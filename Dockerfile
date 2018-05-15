@@ -11,6 +11,7 @@ RUN apk update \
   ffmpeg \
   opus \
   python3 \
+  libsodium \
 \
 # Install build dependencies
 && apk add --no-cache --virtual .build-deps \
